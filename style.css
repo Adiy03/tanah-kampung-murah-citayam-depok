@@ -13,8 +13,8 @@ body {
 }
 
 a{
-    /* text-decoration: none; */
-    color: #0056b3;
+    text-decoration: none;
+    color: inherit;
 }
 
 .kiri{
@@ -97,6 +97,7 @@ button {
         width: 370px;
         margin-right: 1em;
         margin-bottom: 1rem;
+        height: 50vh;
     }
 
     .reverse{
@@ -104,4 +105,9 @@ button {
         flex-direction: column-reverse;
     }
     
+}
+
+span{
+    color: blue;
+    text-decoration: underline;
 }
